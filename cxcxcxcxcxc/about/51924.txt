@@ -1,0 +1,8 @@
+The name of an affected Product: YonBIP v3_23.05
+fixed version:  YonBIP v3_23.05 (patched)
+Vendor of the product: https://www.yonyou.com/
+The CVE ID for the entry: CVE-2023-51924
+A prose description: YonBIP v3_23.05 are affected by a file upload issue. The doPost method in class nc.bs.framework.comn.serv.CommonServletDispatcher is capable of executing the public method of a specific class object. The interface class with the arbitrary file upload vulnerability is `uap.framework.rc.itf.IResourceManager`, and the vulnerability method is add, which saves the string in the data parameter to the file specified by the path parameter, and there is no checksum within the process, allowing an attacker to upload arbitrary files to the specified directory.
+Vulnerability Type: Incorrect Access Control
+Impact: RCE
+Root Cause: The doPost method in class nc.bs.framework.comn.serv.CommonServletDispatcher is capable of executing the public method of a specific class object.

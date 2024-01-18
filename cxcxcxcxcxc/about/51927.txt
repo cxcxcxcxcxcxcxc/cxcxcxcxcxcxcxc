@@ -1,0 +1,8 @@
+The name of an affected Product: YonBIP v3_23.05
+fixed version:  YonBIP v3_23.05 (patched)
+Vendor of the product: https://www.yonyou.com/
+The CVE ID for the entry: CVE-2023-51927
+A prose description: YonBIP v3_23.05 are affected by a SQL injection issue.The com.yonyou.hrcloud.attend.web.AttendScriptController.runScript() method will directly connect to the database and run the sql statement recorded in the script parameter, by constructing the value of Authorization in the request header as the md5 value of the key parameter, you can bypass the check of the interface and achieve the purpose of SQL injection.
+Vulnerability Type: SQL Injection
+Impact: SQL Injection
+Root Cause: The com.yonyou.hrcloud.attend.web.AttendScriptController.runScript() method will directly connect to the database and run the sql statement recorded in the script parameter, by constructing the value of Authorization in the request header as the md5 value of the key parameter, you can bypass the check of the interface and achieve the purpose of SQL injection.

@@ -1,0 +1,8 @@
+The name of an affected Product: YonBIP v3_23.05
+fixed version:  YonBIP v3_23.05 (patched)
+Vendor of the product: https://www.yonyou.com/
+The CVE ID for the entry: CVE-2023-51928
+A prose description: YonBIP v3_23.05 are affected by a file upload issue. The doPost method in class nc.bs.framework.comn.serv.CommonServletDispatcher is capable of executing the public method of a specific class object. The interface class with the arbitrary file upload vulnerability is `nc.itf.uap.sf.ICustomMenuService`, and the vulnerability method is insertIcon, which saves the data stored in the icon attribute of the customMenuIcon parameter to the path stored in the cIconID property.
+Vulnerability Type: Incorrect Access Control
+Impact: arbitrary file upload
+Root Cause: The interface class with the arbitrary file upload vulnerability is `nc.itf.uap.sf.ICustomMenuService`, and the vulnerability method is insertIcon, which saves the data stored in the icon attribute of the customMenuIcon parameter to the path stored in the cIconID property.

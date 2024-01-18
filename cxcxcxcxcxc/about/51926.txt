@@ -1,0 +1,8 @@
+The name of an affected Product: YonBIP v3_23.05
+fixed version:  YonBIP v3_23.05 (patched)
+Vendor of the product: https://www.yonyou.com/
+The CVE ID for the entry: CVE-2023-51926
+A prose description: YonBIP v3_23.05 are affected by a file read issue. The doPost method in class nc.bs.framework.comn.serv.CommonServletDispatcher is capable of executing the public methods of a specific class object. The interface class that exists for reading arbitrary files is nc.login.bs.INCLoginService, whose getServerFileContent method reads a file based on the path passed in by the attacker.
+Vulnerability Type: Incorrect Access Control
+Impact: arbitrary file read
+Root Cause: The interface class that exists for reading arbitrary files is nc.login.bs.INCLoginService, whose getServerFileContent method reads a file based on the path passed in by the attacker.

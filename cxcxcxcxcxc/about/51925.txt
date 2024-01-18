@@ -1,0 +1,8 @@
+The name of an affected Product: YonBIP v3_23.05
+fixed version:  YonBIP v3_23.05 (patched)
+Vendor of the product: https://www.yonyou.com/
+The CVE ID for the entry: CVE-2023-51925
+A prose description: YonBIP v3_23.05 are affected by a backstage file upload issue. The nccloud.web.arcp.taskmonitor.action.ArcpUploadAction.doAction() method will get the request packet file filename as the file storage path, and then through the upLoadByInputStream method to write the file content to the file path, the process of directory traversal, the attacker can upload any file to the specified directory
+Vulnerability Type: arbitrary file upload
+Impact: arbitrary file upload
+Root Cause: The nccloud.web.arcp.taskmonitor.action.ArcpUploadAction.doAction() method will get the request packet file filename as the file storage path, and then through the upLoadByInputStream method to write the file content to the file path, the process of directory traversal, the attacker can upload any file to the specified directory

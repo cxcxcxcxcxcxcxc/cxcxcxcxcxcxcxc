@@ -1,0 +1,8 @@
+The name of an affected Product: e-cology - v10.0.2310.01
+fixed version:  e-cology - v10.0.2311.03
+Vendor of the product: https://www.weaver.com.cn/
+The CVE ID for the entry: CVE-2023-51892
+A prose description: An issue in weaver e-cology v.10.0.2310.01 allows a remote attacker to execute arbitrary code via a crafted script to the FrameworkShellController component. Affected class file `com.weaver.framework.controller.FrameworkShellController`.
+Vulnerability Type: SSTI
+Impact: execute arbitrary code (RCE)
+Root Cause: com.weaver.framework.controller.FrameworkShellController executes the user's input directly as a command
