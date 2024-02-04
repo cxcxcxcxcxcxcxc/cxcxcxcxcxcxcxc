@@ -1,0 +1,8 @@
+The name of an affected Product: Novel-Plus v4.3.0-RC1
+fixed version: Novel-Plus v4.3.0-RC1
+Vendor of the product: https://github.com/201206030/novel-plus
+The CVE ID for the entry: CVE-2024-24018
+A prose description:  A SQL injection vulnerability exists in Novel-Plus v4.3.0-RC1 and prior versions. An attacker can pass in crafted offset, limit, and sort parameters to perform SQL injection via /system/dataPerm/list.
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause: A SQL injection vulnerability exists in Novel-Plus v4.3.0-RC1 and prior versions. An attacker can pass in crafted offset, limit, and sort parameters to perform SQL injection via /system/dataPerm/list.

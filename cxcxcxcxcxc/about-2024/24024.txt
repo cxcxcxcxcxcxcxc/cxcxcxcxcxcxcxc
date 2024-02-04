@@ -1,0 +1,8 @@
+The name of an affected Product: Novel-Plus v4.3.0-RC1
+fixed version: Novel-Plus v4.3.0-RC1
+Vendor of the product: https://github.com/201206030/novel-plus
+The CVE ID for the entry: CVE-2024-24024
+A prose description: An arbitrary File download vulnerability exists in Novel-Plus v4.3.0-RC1 and prior at com.java2nb.common.controller.FileController: fileDownload(). An attacker can pass in specially crafted filePath and fieName parameters to perform arbitrary File download.
+Vulnerability Type: Arbitrary File Download
+Impact: Arbitrary File Download
+Root Cause: An arbitrary File download vulnerability exists in Novel-Plus v4.3.0-RC1 and prior at com.java2nb.common.controller.FileController: fileDownload(). An attacker can pass in specially crafted filePath and fieName parameters to perform arbitrary File download.

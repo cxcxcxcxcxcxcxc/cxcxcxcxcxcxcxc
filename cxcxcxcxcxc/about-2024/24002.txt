@@ -1,0 +1,8 @@
+The name of an affected Product: jshERP - v3.3
+fixed version:  jshERP - v3.3
+Vendor of the product: https://github.com/jishenghua/jshERP
+The CVE ID for the entry: CVE-2024-24002
+A prose description:  jshERP v3.3 is vulnerable to SQL Injection. The com.jsh.erp.controller.MaterialController: com.jsh.erp.utils.BaseResponseInfo getListWithStock() function of jshERP does not filter `column` and `order` parameters well enough, and an attacker can construct malicious payload to bypass jshERP's protection mechanism in `safeSqlParse` method for sql injection.
+Vulnerability Type: SQL Injection
+Impact: SQL Injection
+Root Cause: jshERP v3.3 is vulnerable to SQL Injection. The com.jsh.erp.controller.MaterialController: com.jsh.erp.utils.BaseResponseInfo getListWithStock() function of jshERP does not filter `column` and `order` parameters well enough, and an attacker can construct malicious payload to bypass jshERP's protection mechanism in `safeSqlParse` method for sql injection.
