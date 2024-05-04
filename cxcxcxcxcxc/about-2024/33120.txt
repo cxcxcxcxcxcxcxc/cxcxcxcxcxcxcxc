@@ -1,0 +1,8 @@
+The name of an affected Product: Roothub v2.5
+fixed version: Roothub v2.5
+Vendor of the product: http://roothub.com
+The CVE ID for the entry: CVE-2024-33120
+A prose description: Roothub v2.5 was discovered to contain an arbitrary file upload vulnerability via the customPath parameter in the upload() function. This vulnerability allows attackers to execute arbitrary code via a crafted JSP file.
+Vulnerability Type: Arbitrary File Upload
+Impact: Arbitrary File Upload
+Root Cause: Roothub v2.5 was discovered to contain an arbitrary file upload vulnerability via the customPath parameter in the upload() function. This vulnerability allows attackers to execute arbitrary code via a crafted JSP file.

@@ -1,0 +1,8 @@
+The name of an affected Product: LuckyFrameWeb v3.5.2
+fixed version: LuckyFrameWeb v3.5.2
+Vendor of the product: http://www.luckyframe.cn/
+The CVE ID for the entry: CVE-2024-33118
+A prose description: LuckyFrameWeb v3.5.2 was discovered to contain an arbitrary read vulnerability via the fileDownload method in class com.luckyframe.project.common.CommonController.
+Vulnerability Type: file read
+Impact: file read
+Root Cause: LuckyFrameWeb v3.5.2 was discovered to contain an arbitrary read vulnerability via the fileDownload method in class com.luckyframe.project.common.CommonController..

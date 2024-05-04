@@ -1,0 +1,8 @@
+The name of an affected Product: Roothub - V2.6
+fixed version: Roothub - V2.6
+Vendor of the product: http://roothub.com
+The CVE ID for the entry: CVE-2024-33121
+A prose description: The search() function in wang.miansen.roothub.modules.sys.controller.front.IndexController of Roothub inadequately filters the s parameter. This parameter is eventually passed to the topicService.pageLike() and `countLike` function in postDao.xml, creating a vulnerability to SQL injection.
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause: wang.miansen.roothub.modules.sys.controller.front.IndexController: java.lang.String search().

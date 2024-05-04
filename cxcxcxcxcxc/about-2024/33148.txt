@@ -1,0 +1,8 @@
+The name of an affected Product: J2EEFAST - v2.7.0
+fixed version: J2EEFAST - v2.7.0
+Vendor of the product: https://www.j2eefast.com/
+The CVE ID for the entry: CVE-2024-33148
+A prose description: The com.j2eefast.framework.sys.controller.SysUserController: com.j2eefast.common.core.utils.ResponseData list() function of J2EEFAST does not filter `sql_filter` parameters, and an attacker can pass malicious payload into `findPage` function in SysUserMapper.xml for sql injection.
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause: com.j2eefast.framework.sys.controller.SysRoleController: com.j2eefast.common.core.utils.ResponseData list().

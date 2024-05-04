@@ -1,0 +1,8 @@
+The name of an affected Product: crmeb_java v1.3.4
+fixed version: crmeb_java v1.3.4
+Vendor of the product: https://www.crmeb.com/
+The CVE ID for the entry: CVE-2024-33117
+A prose description: Crmeb v1.3.4 are affected by a SSRF issue. The `mergeList` method in class com.zbkj.front.pub.ImageMergeController is capable of Server Side Request Forgery. As the `path` paremater finally flow into  java.net.URLConnection openConnection().
+Vulnerability Type: SSRF
+Impact: SSRF
+Root Cause: Crmeb v1.3.4 are affected by a SSRF issue. The `mergeList` method in class com.zbkj.front.pub.ImageMergeController is capable of Server Side Request Forgery. As the `path` paremater finally flow into  java.net.URLConnection openConnection().

@@ -1,0 +1,8 @@
+The name of an affected Product: Roothub - V2.6
+fixed version: Roothub - V2.6
+Vendor of the product: http://roothub.com
+The CVE ID for the entry: CVE-2024-33122
+A prose description: The wang.miansen.roothub.modules.comment.controller.CommentAdminController: java.lang.String list() function of Roothub does not filter `topic` well enough. The `topic` parameter will finally flow into topicService.pageLike() and selectAllForAdmin function in commentDao.xml leading to sql injection.
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause: wang.miansen.roothub.modules.comment.controller.CommentAdminController: java.lang.String list().

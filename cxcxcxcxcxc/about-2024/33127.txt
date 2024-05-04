@@ -1,0 +1,8 @@
+The name of an affected Product: Roothub - V2.6
+fixed version: Roothub - V2.6
+Vendor of the product: http://roothub.com
+The CVE ID for the entry: CVE-2024-33127
+A prose description: The parentNode() function in wang.miansen.roothub.modules.node.controller.admin.NodeAdminController of Roothub inadequately filters the  `nodeTitle` parameter. This parameter is eventually passed to the `count` function in nodeDao.xml, creating a vulnerability to SQL injection.
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause: The parentNode() function in wang.miansen.roothub.modules.node.controller.admin.NodeAdminController.
