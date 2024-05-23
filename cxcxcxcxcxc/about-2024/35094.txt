@@ -1,0 +1,8 @@
+The name of an affected Product: Roothub - V2.6.0
+fixed version: Roothub - V2.6.0
+Vendor of the product: https://github.com/miansen/Roothub
+The CVE ID for the entry: CVE-2024-35094
+A prose description:  Roothub v2.6 was discovered to contain a SQL injection vulnerability via the nodeTitle parameter in the count function. (`count` function in nodeDao.xml)
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause: com.j2eefast.framework.sys.controller.SysRoleController: com.j2eefast.common.core.utils.ResponseData authUserList().

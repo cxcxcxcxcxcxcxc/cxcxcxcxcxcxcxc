@@ -1,0 +1,8 @@
+The name of an affected Product: J2EEFAST - v2.7.0
+fixed version: J2EEFAST - v2.7.0
+Vendor of the product: https://www.j2eefast.com/
+The CVE ID for the entry: CVE-2024-35084
+A prose description: J2EEFAST v2.7.0 was discovered to contain a SQL injection vulnerability via the findPage function in SysMsgPushMapper.xml.
+Vulnerability Type: SQL injection
+Impact: SQL injection
+Root Cause:  `findPage` function in SysMsgPushMapper.xml

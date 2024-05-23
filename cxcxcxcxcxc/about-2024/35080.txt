@@ -1,0 +1,8 @@
+The name of an affected Product: inxedu v2024.4
+fixed version:  inxedu v2024.4
+Vendor of the product: https://www.inxedu.com/
+The CVE ID for the entry: CVE-2024-35080
+A prose description: An arbitrary file upload vulnerability in the gok4 method of inxedu v2024.4 allows attackers to execute arbitrary code via uploading a crafted .jsp file.
+Vulnerability Type: arbitrary file upload
+Impact: arbitrary file upload
+Root Cause:  com.inxedu.os.common.controller.VideoUploadController gok4com.inxedu.os.common.controller.VideoUploadController gok4
